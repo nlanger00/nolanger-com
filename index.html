@@ -3,41 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website of Nolan Langer.">
+    <meta name="description" content="Welcome to the personal homepage of Nolan Langer.">
     <meta name="author" content="Nolan Langer">
-    <title>Nolan Langer - Personal Website</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Nolan Langer | Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <h1>Nolan Langer</h1>
-        <p>Welcome to my personal website</p>
+        <div class="container">
+            <h1>Nolan Langer</h1>
+            <p>Your go-to place for all things Nolan</p>
+        </div>
     </header>
 
     <!-- Navigation Menu -->
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <div class="container">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
     <!-- Main Content -->
     <div class="container">
-        <section id="about">
+        <section id="about" class="section">
             <h2>About Me</h2>
-            <p>Hello! I'm Nolan Langer</p>
+            <p>Welcome! I'm Nolan Langer. This is my personal homepage</p>
         </section>
 
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-        </section>
-
-        <section id="contact">
+        <section id="contact" class="section">
             <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach out to me using the form below:</p>
-
+            <p>Feel free to reach out to me for inquiries, collaborations, or just to say hello!</p>
             <form class="contact-form" action="mailto:123ind123@gmail.com" method="post" enctype="text/plain">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -55,7 +53,9 @@
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Nolan Langer. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Nolan Langer. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
     </footer>
 
 </body>

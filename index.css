@@ -1,67 +1,103 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     color: #333;
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #0066cc;
+}
+
+/* Header */
 header {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 50px 0;
     text-align: center;
 }
+
 header h1 {
     margin: 0;
+    font-size: 3em;
 }
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation Bar */
 nav {
     background-color: #444;
-    overflow: hidden;
-}
-nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    display: inline-block;
     text-align: center;
+    padding: 10px 0;
 }
+
+nav a {
+    margin: 0 20px;
+    color: white;
+    font-size: 1.1em;
+}
+
 nav a:hover {
     background-color: #575757;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
+
+/* Sections */
+.section {
+    margin: 50px 0;
 }
+
+.section h2 {
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+
+footer a {
+    color: #1e90ff;
 }
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.contact-form button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.contact-form button:hover {
-    background-color: #555;
+
+footer a:hover {
+    text-decoration: underline;
 }
